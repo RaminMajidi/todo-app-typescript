@@ -59,7 +59,6 @@ export class ProjectInput extends Component {
             projectState.addProject(title, desc, pepole);
             this.clearInputs();
         }
-        console.log(this.titleInputElement.value);
     }
     configure() {
         this.element.addEventListener("submit", this.submitHandeler);

@@ -69,7 +69,6 @@ import { Component } from "./base-component.js";
                 projectState.addProject(title, desc, pepole);
                 this.clearInputs();
             }
-            console.log(this.titleInputElement.value);
         }
     
          configure() {
